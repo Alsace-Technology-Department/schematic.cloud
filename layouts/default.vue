@@ -1,7 +1,7 @@
 <template>
   <Html>
     <Head>
-      <Title>schematic.cloud - Upload and Store schematics</Title>
+      <Title>工业园 schematic cloud</Title>
       <Meta charset="UTF-8"></Meta>
       <Meta
         name="viewport"
@@ -12,7 +12,7 @@
         hid="description"
         content="Easily store your NBT Minecraft schematics in the cloud for later use"
       ></Meta>
-      <Link rel="icon" type="image/x-icon" href="/favicon.ico"></Link>
+      <Link rel="icon" type="image/x-icon" href="https://ns.alsace.team/service/images/logo/favicon.ico"></Link>
     </Head>
     <Body>
       <div class="container">
@@ -39,6 +39,13 @@
                     target="_blank"
                   >
                     IntellectualSites
+                  </a> & 
+                  <a
+                    class="text-decoration-none"
+                    href="https://www.alsace.team"
+                    target="_blank"
+                  >
+                    AlsaceTeam
                   </a>
                 </p>
               </div>
@@ -64,7 +71,7 @@ onMounted(async () => {
 
 <style>
 body {
-  background-image: url('~/assets/img/background.svg');
+  background-image: url('https://ns.alsace.team/service/images/img/arks_max.JPG');
   background-position: center;
   background-size: cover;
   min-height: 100vh;
