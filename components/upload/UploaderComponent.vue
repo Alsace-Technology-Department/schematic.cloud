@@ -4,8 +4,7 @@
   </div>
   <div v-else class="file-selector">
     <p class="welcome mb-4">
-      Welcome to schematic.cloud! Please select the schematic that you want to
-      upload:
+      欢迎来到schematic.cloud！ 请选择您想要上传的schem文件:
     </p>
     <div class="mb-3">
       <input
@@ -16,13 +15,13 @@
       />
     </div>
     <p class="links mt-4">
-      Click here to
+      点击这里
       <nuxt-link class="text-decoration-none" to="/download"
-        >download</nuxt-link
+        >下载</nuxt-link
       >
-      a schematic, or here to
-      <nuxt-link class="text-decoration-none" to="/delete">delete one</nuxt-link
-      >.
+      或
+      <nuxt-link class="text-decoration-none" to="/delete">删除</nuxt-link
+      >schem文件
     </p>
   </div>
 </template>
